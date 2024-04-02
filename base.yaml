@@ -132,7 +132,7 @@ binary_sensor:
       inverted: true
       mode:
         input: true
-        pullup: true
+        # pullup: true
     name: "Dry contact open"
     entity_category: diagnostic
     filters:
@@ -150,7 +150,7 @@ binary_sensor:
       inverted: true
       mode:
         input: true
-        pullup: true
+        # pullup: true
     name: "Dry contact close"
     entity_category: diagnostic
     filters:
@@ -168,7 +168,7 @@ binary_sensor:
       inverted: true
       mode:
         input: true
-        pullup: true
+        # pullup: true
     name: "Dry contact light"
     entity_category: diagnostic
     filters:
